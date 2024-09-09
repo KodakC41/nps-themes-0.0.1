@@ -1,0 +1,29 @@
+{
+    "name": "nation-parks",
+    "displayName": "National Parks",
+    "publisher": "Chris Bruinsma",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yosemite",
+                "uiTheme": "vs-dark", 
+                "path": "./themes/yosemite.json"
+            }, 
+            {
+                "label" : "Grand Canyon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/grand-canyon.json"
+            },
+            {
+                "label": "Saguaro",
+                "uiTheme": "vs",
+                "path": "./themes/saguaro.json"
+            }
+        ]
+    }
+}
